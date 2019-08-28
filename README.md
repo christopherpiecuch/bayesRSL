@@ -27,7 +27,11 @@ MATLAB .m files
 
 •	autocorrelation.m: computes sample autocorrelation of time series
 
-•	bayes_main_code.m: this is the main driver code of the model.  Simply execute “bayes_main_code” in the MATLAB Command Window from the bayesGIA directory, and this code should run “out of the box”.  See lines 20-34 of this code for adjustable input parameters.  (Values occurring on lines 29-34 presently are the “default” values to reproduce results in Piecuch et al. (2017)).
+•	bayes_main_code.m: this is the main driver code of the model.  Simply execute “bayes_main_code” in the MATLAB Command Window from the bayesGIA directory, and this code should run “out of the box”.  See lines 20-34 of this code for adjustable input parameters.  (Values occurring on lines 29-34 presently are the “default” values to reproduce results in Piecuch et al. (2017)).  The default values used by Piecuch et al. (2017) for the variables on lines 20-23 are:
+
+- NN_burn=100000
+- NN_post=100000
+- thin_period=100
 
 •	delete_burn_in.m: delete “burn-in” (or “warm-up”) transients from model solution
 
